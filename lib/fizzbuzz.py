@@ -1,8 +1,10 @@
 def fizzbuzz(num):
-    if num % 3 == 0:
-      return "Fizz"
-    elif num % 5 == 0:
-      return "Buzz"
-    else:
-      return num
-
+      if num % 3 == 0 and num % 5 == 0:
+        return "Fizzbuzz"
+      elif num % 5 == 0:
+        return "Buzz"
+      elif num % 3 == 0:
+        return "Fizz"
+      else:
+        return num
+  
